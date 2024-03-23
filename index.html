@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Иконка вкладки -->
+    <link rel="shortcut icon" href="">
+    <script src="https://kit.fontawesome.com/32d2b77cbe.js"></script>
+</head>
+<body>
+    <header>
+        <a class="aHeader" href="index.html" style="color: #fff; background-color: #424b67;">
+            Карта
+        </a>
+        <a class="aHeader" href="rooms.html">
+            Кабинеты
+        </a>
+        <div class="burger">
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li class="header__list">
+                        <a href="#map-id" class="header__link">
+                            <img src="images/icon-floorsBM.png" alt="">
+                            <p>
+                                Карта
+                            </p>
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a href="#event-id" class="header__link">
+                            <img src="images/event-iconBM.png" alt="">
+                            <p>
+                                События
+                            </p>
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a href="rooms.html" class="header__link">
+                            <img src="images/serviceBM.svg" alt="">
+                            <p>
+                                Специальные комнаты
+                            </p>
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a href="rooms.html" class="header__link">
+                            <img src="images/roomList-iconBM.png" alt="">
+                            <p>
+                                Кабинеты
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <div id="map-id" class="div-name">
+            <img src="images/icon-floors.png" alt="Иконка" class="img-event">
+            <p>
+                Карта
+            </p>
+        </div>
+
+            <!-- 1 этаж -->
+            <div class="floor">
+                <img id="f1" class="floor-image" src="images/default1.png" alt="Схема 1 этажа">
+            </div>
+
+            <!-- 2 этаж -->
+
+            <div class="floor">
+                <img id="f2" class="floor-image" src="images/default2.png" alt="Схема 2 этажа">
+            </div>
+
+            <!-- 3 этаж -->
+
+            <div class="floor">
+                <img id="f3" class="floor-image" src="images/default3.png" alt="Схема 3 этажа">
+            </div>
+
+        <div class="div-floors-index">
+            <!-- меню выбора этажа -->
+            <div class="floors-menu">
+                <button id="btn1" class="btn-floor" style="color: #fff; font-size: 32px; background-color: #2a3044;">
+                    1 этаж
+                </button>
+                <button id="btn2" class="btn-floor">
+                    2 этаж
+                </button>
+                <button id="btn3" class="btn-floor">
+                    3 этаж
+                </button>
+            </div>
+        </div>
+
+        <div id="event-id" class="event">
+            <div class="div-name">
+                <img src="images/event-icon.png" alt="Иконка" class="img-event">
+                <p>
+                    События
+                </p>
+            </div>
+            <div class="list-event">
+
+                <div class="cart-event">
+                    <p class="date">
+                        17.08
+                    </p>
+                    <p class="description">
+                        Каникулы
+                    </p>
+                </div>
+
+                <div class="cart-event">
+                    <p class="date">
+                        17.08
+                    </p>
+                    <p class="description">
+                        Каникулы
+                    </p>
+                </div>
+
+                <div class="cart-event">
+                    <p class="date">
+                        17.08
+                    </p>
+                    <p class="description">
+                        Каникулы
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="textDiv-footer">
+            © 2024:Все права защищены
+        </div>
+        <div class="linkDiv-footer">
+            <div class="soc-seti">
+                <a href="https://vk.com/public211552863">
+                    <i class="fa-brands fa-vk"></i>
+                </a>
+                <a href="mailto:gkg@yakadm.ru">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://ykt-gkg.obr.sakha.gov.ru/moja-shkola">
+                    <i class="fa-solid fa-earth-americas"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

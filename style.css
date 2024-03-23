@@ -1,0 +1,395 @@
+/* стандартные стили */
+@font-face {
+    font-family: "Open Sans";
+    src: url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10px;
+}
+
+p{
+    color: rgb(45, 45, 45);
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+    font-size: 24px;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    margin: 0;
+    font-family: "Open Sans" , sans-serif;
+    overflow-x:hidden;
+    padding: 0;
+    background-color: #212634;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+/* остальные стили */
+
+/* header--------------------------------------------------------------------------------------------------- */
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+}
+
+.aHeader{
+    background-color: #212634;
+    border: 5px solid #3a425a;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px; 
+}
+
+
+/* main------------------------------------------------------------------------------------------------------ */
+
+main{
+    width: 100%;
+    height: 900px;
+}
+
+.div-floors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.div-floors-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 375px;
+    width: 100%;
+}
+
+.floors-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-floor{
+    width: 100%;
+    height: 70px;
+    color: rgb(201, 201, 201);
+    font-size: 28px;
+    background-color: #212634;
+    border: none;
+}
+
+.floor{
+    width: 100%;
+    height: 0.1px;
+}
+
+.room{
+    height: 300px;
+    margin: 25px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: 5px solid #3a425a;
+}
+
+.roomService{
+    margin: 25px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: 5px solid #3a425a;
+}
+
+.img-service{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.floor-image{
+    position: absolute;
+    width: 97%;
+    height: 30%; 
+    border-radius: 20px;
+    border: 5px solid #3a425a;
+}
+
+.floor-h1{
+    font-size: 32px;
+    color: rgb(201, 201, 201);
+    background-color: #212634;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.iconList{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.iconCabinet{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.iconList-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#f1{
+    opacity: 1;
+}
+
+#f2{
+    opacity: 0;
+}
+
+#f3{
+    opacity: 0;
+}
+
+/* event */
+
+.event{
+    width: 100%;
+
+}
+
+.img-event{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.div-name{
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #3a425a;
+    margin: 10px;
+}
+
+.list-event{
+    margin: 25px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: 5px solid #3a425a;
+}
+.cart-event{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.date{
+    font-size: 28px;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+.description{
+    font-size: 28px;
+}
+
+
+/* footer--------------------------------------------------------------------------------------------------- */
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 170px;
+    background-color: rgb(39, 39, 39);
+    align-items: center;
+}
+
+.textDiv-footer{
+    color: rgb(118, 118, 118);
+    margin-top: 20px;
+}
+
+.linkDiv-footer{
+    margin-top: 20px;
+}
+
+.soc-seti{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.img-seti{
+    width: 40px;
+    height: 40px;
+}
+
+.fa-vk{
+    color: rgb(118, 118, 118);
+    font-size: 32px;
+}
+
+.fa-envelope{
+    color: rgb(118, 118, 118);
+    font-size: 32px;
+}
+
+.fa-earth-americas{
+    color: rgb(118, 118, 118);
+    font-size: 32px;
+}
+
+
+/*бургер меню*/
+.burger{
+    display: flex;
+    position: fixed; 
+    width: 40px;
+    height: 40px;
+    border: 5px solid #3a425a;
+    border-radius: 100px;
+    left: 80%;
+    background-color: #212634;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+.header__burger {
+    display: block;
+    position: fixed;
+    width: 30px;
+    height: 20px;
+    z-index: 5;
+}
+.header__burger span {
+    position: absolute;
+    background-color: rgb(201, 201, 201);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+    border-radius: 100px;
+}
+.header__burger:before, 
+.header__burger:after {
+    content: '';
+    background-color: rgb(201, 201, 201);
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+    border-radius: 100px;
+}
+.header__burger:before {
+    top: 0;
+}
+.header__burger:after {
+    bottom: 0;
+}
+
+.header__burger.active span {
+    transform: scale(0);
+}
+
+.header__burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+}
+  
+.header__burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+}
+
+.header__menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #3a425a;
+    padding: 70px 0px 0px 0px;
+    transition: all 0.5s ease 0s;
+    z-index: 4;
+}
+
+.header__menu.active {
+    right:0;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 15%;
+}
+
+.header__list li {
+    margin: 0px 0px 20px 0px;
+}
+
+.header__link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__link > img{
+    width: 30px;
+    height: 30px;
+}
+
+.header__link > p{
+    color: rgb(201, 201, 201);
+}
+
+
+
+
+/* адаптивность */
+@media (max-width: 500px) { 
+
+}
+

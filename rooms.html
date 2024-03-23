@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Иконка вкладки -->
+    <link rel="shortcut icon" href="">
+    <script src="https://kit.fontawesome.com/32d2b77cbe.js"></script>
+</head>
+<body>
+    <header>
+        <a class="aHeader headerList" href="index.html">
+            Карта
+        </a>
+        <a class="aHeader headerList" href="rooms.html" style="color: #fff; background-color: #424b67;">
+            Кабинеты
+        </a>
+        <div class="burger">
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li class="header__list">
+                        <a href="index.html" class="header__link">
+                            <img src="images/icon-floorsBM.png" alt="">
+                            <p>
+                                Карта
+                            </p>
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a href="index.html" class="header__link">
+                            <img src="images/event-iconBM.png" alt="">
+                            <p>
+                                События
+                            </p>
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a href="#cpec-rooms-id" class="header__link">
+                            <img src="images/serviceBM.svg" alt="">
+                            <p>
+                                Специальные комнаты
+                            </p>
+                        </a>
+                    </li>
+                    <li class="header__list">
+                        <a href="#rooms-id" class="header__link">
+                            <img src="images/roomList-iconBM.png" alt="">
+                            <p>
+                                Кабинеты
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main style="height: 1000px;">
+
+        <div id="cpec-rooms-id" class="div-name">
+            <img src="images/serviceIcon.svg" alt="Иконка" class="img-service">
+            <p>
+                Специальные комнаты
+            </p>
+       
+        </div>
+    
+    
+        <!-- служебные помещения -->
+        <div class="roomService">
+            <div class="iconList-item">
+                <img class="iconCabinet" src="images/cook.svg" alt="иконка">
+                <p>Столовая</p>
+            </div>
+            <div class="iconList-item">
+                <img class="iconCabinet" src="images/toilet.svg" alt="иконка">
+                <p>Туалеты</p>
+            </div>
+            <div class="iconList-item">
+                <img class="iconCabinet" src="images/sport.svg" alt="иконка">
+                <p>Спорт зал</p>
+            </div>
+            <div class="iconList-item">
+                <img class="iconCabinet" src="images/exit.svg" alt="иконка">
+                <p>Выход</p>
+            </div>
+        </div>
+
+        <div id="rooms-id" class="div-name">
+            <img src="images/roomList-icon.png" alt="Иконка" class="img-service">
+            <p>
+                Кабинеты
+            </p>
+        </div>
+
+        <div class="div-floors">
+            <!-- меню выбора этажа -->
+            <div class="floors-menu">
+                <button id="btn1" class="btn-floor" style="color: #fff; font-size: 32px; background-color: #2a3044;">
+                    1 этаж
+                </button>
+                <button id="btn2" class="btn-floor">
+                    2 этаж
+                </button>
+                <button id="btn3" class="btn-floor">
+                    3 этаж
+                </button>
+            </div>
+        </div>
+
+        <!-- 1 этаж -->
+        <div class="room">
+            <div id="f1" class="iconList">
+                <div class="iconList-item">
+                    <img class="iconCabinet" src="images/101.png" alt="101">
+                    <p>Кабинет 101</p>
+                </div>
+                <div class="iconList-item">
+                    <img class="iconCabinet" src="images/102.png" alt="102">
+                    <p>Кабинет 102</p>
+                </div>
+                <div class="iconList-item">
+                    <img class="iconCabinet" src="images/103.png" alt="103">
+                    <p>Кабинет 103</p>
+                </div>
+                
+            </div>
+
+            <!-- 2 этаж -->
+            <div id="f2" class="iconList">
+                <div class="iconList-item">
+                    <img class="iconCabinet" src="images/201.png" alt="201">
+                    <p>Кабинет 201</p>
+                </div>
+                <div class="iconList-item">
+                    <img class="iconCabinet" src="images/202.png" alt="202">
+                    <p>Кабинет 202</p>
+                </div>
+                <div class="iconList-item">
+                    <img class="iconCabinet" src="images/203.png" alt="203">
+                    <p>Кабинет 203</p>
+                </div>
+
+            </div>
+
+        <!-- 3 этаж -->
+            <div id="f3" class="iconList">
+                <div class="iconList-item">
+                    <img class="iconCabinet" src="images/301.png" alt="301">
+                    <p>Кабинет 301</p>
+                </div>
+                <div class="iconList-item">
+                    <img class="iconCabinet" src="images/302.png" alt="302">
+                    <p>Кабинет 302</p>
+                </div>
+                <div class="iconList-item">
+                    <img class="iconCabinet" src="images/303.png" alt="303">
+                    <p>Кабинет 303</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        
+    </main>
+    <footer>
+        <div class="textDiv-footer">
+            © 2024:Все права защищены
+        </div>
+        <div class="linkDiv-footer">
+            <div class="soc-seti">
+                <a href="https://vk.com/public211552863">
+                    <i class="fa-brands fa-vk"></i>
+                </a>
+                <a href="mailto:gkg@yakadm.ru">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://ykt-gkg.obr.sakha.gov.ru/moja-shkola">
+                    <i class="fa-solid fa-earth-americas"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
